@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Under Construction</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #edf2fb, #dbe4ff);
+      font-family: 'Rubik', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .wrapper {
+      max-width: 600px;
+      background: white;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      animation: fadeIn 1.5s ease;
+    }
+
+    .wrapper img {
+      width: 100px;
+      margin-bottom: 0px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #2b2d42;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #6c757d;
+      font-size: 16px;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <img src="images/Blogo.png" alt="Under Construction">
+    <h1>Under Construction</h1>
+    <p>Our website is currently under development. We’ll be back soon with something amazing!</p>
+  </div>
+
+</body>
+</html>
